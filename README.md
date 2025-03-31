@@ -9,3 +9,15 @@ Some example tasks to simplify:
 - Generate year by year returns for a given account given an investment (savings) and return rate
 - Generate year by year returns for an entire portfolio of accounts
 - Determine the time needed to reach a certain level of annual investment returns
+
+### Design
+
+Features?
+
+Out of Scope?
+
+High Level Architecture, Database / How to Persists, What is frontend and backend responsible for (what functionality) - frontend input output and parsing, backend has API
+
+What is the API - what functions?
+
+Data model / How to represent data in code
