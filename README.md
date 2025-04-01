@@ -12,7 +12,9 @@ Some example tasks to simplify:
 
 ### Design
 
-Features?
+#### Features
+
+- Purchase comparator which allows you to compare two product options - say a razor and electric trimmer, with base and recurring costs to see which is less expensive and over what period of time
 
 Out of Scope?
 
