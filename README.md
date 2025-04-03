@@ -16,10 +16,28 @@ Some example tasks to simplify:
 
 - Purchase comparator which allows you to compare two product options - say a razor and electric trimmer, with base and recurring costs to see which is less expensive and over what period of time
 
-Out of Scope?
+###### Out of Scope
+
+#### Architecture
 
 High Level Architecture, Database / How to Persists, What is frontend and backend responsible for (what functionality) - frontend input output and parsing, backend has API
 
 What is the API - what functions?
 
 Data model / How to represent data in code
+
+#### User Flow
+
+User opens application in their CLI, they then proceeed to enter their accounts which include names, current values, and expected return rate (ExRR) (+User Can Open Saved Accounts,
+accounts have a recurring savings field).
+
+Once a set of accounts are entered they can be deleted, edited / updated, and additional accounts can be added (+User Can Save Their Accounts).
+
+Users can then generate future account value projections using planned recurring savings values and a set period of time, or date. (+User Can use existing recurring savings field).
+
+Application generates future account values, a table of values each year, and the projected value at finish for each account and the portfolio (+User can also get +/-10% projections).
+
+##### Extras
+
+- Have information on each "page" clear the terminal so it feels more like a proper user interface.
+- Have a feature to compare prices of products given a beginning price, and a set of recurring costs along with recurrence periods, let us calculate the long term costs and the break even points.
