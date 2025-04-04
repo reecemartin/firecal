@@ -40,4 +40,5 @@ Application generates future account values, a table of values each year, and th
 ##### Extras
 
 - Have information on each "page" clear the terminal so it feels more like a proper user interface.
+- Consider tax rates, and taxed vs. untaxed accounts and "real" value.
 - Have a feature to compare prices of products given a beginning price, and a set of recurring costs along with recurrence periods, let us calculate the long term costs and the break even points.
