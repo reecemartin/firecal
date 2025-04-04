@@ -47,7 +47,7 @@ Application generates future account values, a table of values each year, and th
 
 #### Functions and Modules
 
-##### I/O Module (io_firecal)
+##### I/O Module [io_firecal]
 
 - Display Account
 - Display Accounts
@@ -58,15 +58,15 @@ Application generates future account values, a table of values each year, and th
 - Modify Future
 - Delete Future
 
-##### Logic Module (logic_firecal)
+##### Logic Module [logic_firecal]
 
-- Getters and Setters
-- Account and Future Structs
-- Init Function for Account and Future
-- Edit Account Function (Uses Setters)
-- Retrieve Account Function (Uses Getters)
-- Delete Account Function
-- Generate Future Function (Uses Init)
-- Retrieve Future Function (Uses Getters)
-- Modify Future Function (Uses Setters)
-- Delete Future Function
+- Getters and Setters 
+- Account and Future Structs [Account, Future]
+- Init Function for Account and Future [new]
+- Edit Account Function (Uses Setters) [edit_account]
+- Retrieve Account Function (Uses Getters) [retrieve_account]
+- Delete Account Function [delete_account]
+- Generate Future Function (Uses Init) [future]
+- Retrieve Future Function (Uses Getters) [retrieve_future]
+- Modify Future Function (Uses Setters) [modify_future]
+- Delete Future Function [delete_future]
