@@ -26,6 +26,8 @@ What is the API - what functions?
 
 Data model / How to represent data in code
 
+"Futures" are accounts / portfolios at some time in the future, tied to accounts at a given time
+
 #### User Flow
 
 User opens application in their CLI, they then proceeed to enter their accounts which include names, current values, and expected return rate (ExRR) (+User Can Open Saved Accounts,
@@ -42,3 +44,29 @@ Application generates future account values, a table of values each year, and th
 - Have information on each "page" clear the terminal so it feels more like a proper user interface.
 - Consider tax rates, and taxed vs. untaxed accounts and "real" value.
 - Have a feature to compare prices of products given a beginning price, and a set of recurring costs along with recurrence periods, let us calculate the long term costs and the break even points.
+
+#### Functions and Modules
+
+##### I/O Module (io_firecal)
+
+- Display Account
+- Display Accounts
+- Add Account
+- Edit Account
+- Delete Account
+- Generate Future
+- Modify Future
+- Delete Future
+
+##### Logic Module (logic_firecal)
+
+- Getters and Setters
+- Account and Future Structs
+- Init Function for Account and Future
+- Edit Account Function (Uses Setters)
+- Retrieve Account Function (Uses Getters)
+- Delete Account Function
+- Generate Future Function (Uses Init)
+- Retrieve Future Function (Uses Getters)
+- Modify Future Function (Uses Setters)
+- Delete Future Function
