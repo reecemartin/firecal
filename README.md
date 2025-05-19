@@ -72,24 +72,24 @@ Application generates future account values, a table of values each year, and th
 - Modify Future Function (Uses Setters) [modify_future]
 - Delete Future Function [delete_future]
 
-- ##### Account Struct
+##### Account Struct
 
 - name: String
 - mut composition: [Composition; X]
 - creation: Option(DateTime, None)
 
-- ##### Future Struct
+##### Future Struct
 
 - name: String
 - maturity: u8
 - date: DateTime
 
-- ##### Investment Struct
+##### Investment Struct
 
 - name: String
 - expected_return: u8
 
-- ##### Composition Struct
+##### Composition Struct
 
 - investment: Investment
 - percentage: f32
