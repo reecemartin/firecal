@@ -61,7 +61,8 @@ Application generates future account values, a table of values each year, and th
 ##### Logic Module [logic_firecal]
 
 - Getters and Setters 
-- Account and Future Structs [Account, Future]
+- Account, Investment, Composition and Future Structs [Account, Future, Investment, Composition]
+(An investment is a certain stock or indice. A coposition adds a % value to represent the proportion of an account's value invested in this.)
 - Init Function for Account and Future [new]
 - Edit Account Function (Uses Setters) [edit_account]
 - Retrieve Account Function (Uses Getters) [retrieve_account]
@@ -70,3 +71,25 @@ Application generates future account values, a table of values each year, and th
 - Retrieve Future Function (Uses Getters) [retrieve_future]
 - Modify Future Function (Uses Setters) [modify_future]
 - Delete Future Function [delete_future]
+
+- ##### Account Struct
+
+- name: String
+- mut composition: [Composition; X]
+- creation: Option(DateTime, None)
+
+- ##### Future Struct
+
+- name: String
+- maturity: u8
+- date: DateTime
+
+- ##### Investment Struct
+
+- name: String
+- expected_return: u8
+
+- ##### Composition Struct
+
+- investment: Investment
+- percentage: f32
